@@ -1,0 +1,31 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+  margin-bottom: 5vh;
+}
+
+.page {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.9em;
+  cursor: pointer;
+  color: #000000;
+  transition: color 0.3s ease;
+  font-weight: 300;
+  padding: 10px 10px;
+  background-color: rgb(255, 227, 219);
+  border-radius: 35%;
+}
+
+.activePage {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.9em;
+  cursor: pointer;
+  color: #ffffff;
+  transition: color 0.3s ease;
+  font-weight: 300;
+  padding: 10px 10px;
+  background-color: rgb(91, 79, 76);
+  border-radius: 30%;
+}

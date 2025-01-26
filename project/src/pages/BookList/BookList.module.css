@@ -1,0 +1,42 @@
+.header {
+  font-weight: 800;
+  font-size: 2.2em;
+  margin-bottom: 70px;
+  margin-left: 13vw;
+}
+
+.functional {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 9vw 70px;
+}
+
+.add {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 1vh 9vw 5vh;
+  padding: 15px 25px;
+  background-color: #af8c83ff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wrapper {
+  margin: 0 9vw;
+  padding: 0;
+  display: flex;
+  gap: 3vw;
+  flex-wrap: wrap;
+  margin-bottom: 6vh;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 3vw;
+  flex-wrap: wrap;
+}

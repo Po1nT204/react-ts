@@ -1,0 +1,43 @@
+.header {
+  font-weight: 800;
+  font-size: 2.2em;
+  margin-bottom: 70px;
+  margin-left: 13vw;
+}
+
+.sort {
+  width: 20vw;
+  margin-left: auto;
+  margin-right: 13vw;
+  margin-bottom: 70px;
+}
+
+.addNew {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 1vh 9vw 5vh;
+  padding: 15px 25px;
+  background-color: #af8c83ff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wrapper {
+  margin: 0 9vw;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  margin-bottom: 6vh;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}

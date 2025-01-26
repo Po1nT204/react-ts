@@ -1,0 +1,51 @@
+.listItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  text-wrap: wrap;
+  box-shadow: 3px 3px 14px 10px rgba(0, 0, 0, 0.23);
+}
+
+.quote {
+  font-style: italic;
+  width: 100%;
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+.author {
+  width: 100%;
+  font-size: 0.9em;
+  font-weight: 800;
+}
+
+.book {
+  width: 100%;
+  font-size: 1.25em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 1.25em;
+}
+.functional {
+  display: flex;
+  gap: 1vw;
+  margin-top: 30px;
+}
+
+.delete,
+.change {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.9em;
+  cursor: pointer;
+  color: #000000;
+  transition: color 0.3s ease;
+  font-weight: 500;
+  padding: 5px 5px;
+  background-color: rgb(255, 227, 219);
+  border-radius: 5px;
+}

@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sortByText {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: #000000;
+}
+
+.sortByValue {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  background: none;
+  color: #d08412;
+  cursor: pointer;
+  border: none;
+  text-decoration: underline;
+  margin-right: 1vw;
+}
+
+.toggleOrder {
+  border: none;
+  font-size: 1em;
+  background-color: rgb(255, 227, 219);
+  cursor: pointer;
+  padding: 5px 5px;
+}
+
+.toggleOrder:hover {
+  background-color: #d08412;
+}

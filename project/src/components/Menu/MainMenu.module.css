@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  margin-bottom: 60px;
+  justify-content: end;
+  padding-right: 30px;
+}
